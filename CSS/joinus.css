@@ -21,10 +21,18 @@ main form input{
     
 }
 
- .gender-type{
-    width: 40px;
-    margin-top: 30px;
- }
+.level-of-study{
+    width: 300px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 7px 0px;
+    border: black solid 0.5px;
+}
+
+.gender-type{
+   width: 40px;
+   margin-top: 30px;
+}
 
 .gender{
     display: flex;
@@ -37,12 +45,8 @@ main form input{
     height: 30px;
 }
 
-.level-of-study{
-    width: 300px;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    padding: 7px 0px;
-    border: black solid 0.5px;
-}
+
+
+
 
 
