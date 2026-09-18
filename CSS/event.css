@@ -1,14 +1,16 @@
 .events-container{
     max-width: 1200px;
-    margin: 0 auto;  
-    padding-bottom: 30px;
+    margin: 40px auto;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .events-container h2{
+    font-size: 30px;
+    margin-bottom: 30px;
     text-align: center;
-    margin: 25px 0 ;
 }
 
+/* 8 box of event, each row have 2 column */
 .events-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
