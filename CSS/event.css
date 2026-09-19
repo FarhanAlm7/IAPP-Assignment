@@ -1,17 +1,17 @@
-.events-container{
+.event-container{
     max-width: 1200px;
     margin: 40px auto;  
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-.events-container h2{
+.event-container h2{
     font-size: 30px;
     margin-bottom: 30px;
     text-align: center;
 }
 
 /* 8 box of event, each row have 2 column */
-.events-grid{
+.event-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
     gap: 20px; 
@@ -48,11 +48,11 @@
     color: #718096;
 }
 
-.event-details{
+.event-detail{
     flex: 1; 
 }
 
-.event-details h3{
+.event-detail h3{
     margin: 6px 0;
     font-size: 16px;
 }
@@ -63,8 +63,8 @@
     padding: 3px 8px;
     border-radius: 10px;
     letter-spacing: 0.5px;
-    background-color:#e0f2fe;
-    color: #0284c7;
+    background-color:#d3e7f4; 
+    color: #0388ca;
 }
 
 .btn{

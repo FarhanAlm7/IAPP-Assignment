@@ -18,7 +18,7 @@
 .trophy-box p{
     font-size: 15px;
     margin-bottom: 15px;
-    color: #475569;
+    color: #334154;
 }
 
 /* 4 box of trophy, each row have 1 column*/
@@ -36,7 +36,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -55,6 +55,10 @@
 /* eat all the space except icon and button */
 .trophy-info{
     flex: 1;
+}
+
+.trophy-card img{
+    max-width: 25px;
 }
 
 .trophy-info h4{
@@ -94,7 +98,7 @@
 
 .timeline-info time{
     font-size: 18px;
-    color: #e65100;
+    color: #c75315;
 }
 
 .timeline-info h4{
@@ -104,6 +108,6 @@
 
 .timeline-info p{
     font-size: 15px;
-    color: #475569;
+    color: #39475a;
     margin-bottom: 15px;
 } 
