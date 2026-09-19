@@ -107,17 +107,26 @@ nav{
 }
 
 
-/* main part (unique) */
-/* ------------------------- */
-
 
 
 
 footer{
-    background-color: rgb(9, 9, 49);
+    background-color: rgb(15, 15, 72);
     color: white;
     text-align: center;
     padding: 20px;
-    font-size: 15px;
+    font-size: 16px;
     border-top: 3px solid orange;
+}
+
+.bottom-hyperlink{
+    text-decoration: none;
+    color: rgb(185, 176, 176);
+    font-size: 15px;
+    padding: 0 10px;
+    margin-top: 5px
+}
+
+.bottom-hyperlink:hover{
+    color: white;
 }
