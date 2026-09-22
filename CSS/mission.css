@@ -1,0 +1,57 @@
+main {
+    background-image: linear-gradient(rgba(255,255,255,0.5)), url(../multimedia/football3.jpg);
+    background-size: cover;
+    border-bottom: 3px solid orange;
+    margin-bottom: 20px;
+
+}
+
+
+#mission_title {
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    font-size: 40px;
+
+}
+
+main h4 {
+    font-size: 30px;
+    margin-bottom:20px;
+
+}
+
+.card_row {
+    display: flex;
+    gap:40px;
+    margin-top: 26px;
+    padding: 0 100px;
+
+}
+
+
+.card {
+    font-size: 22px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px darkorange;
+    width: 50%;
+    background: linear-gradient(to right, rgba(255, 185, 0, 0.3), rgba(255, 125, 0, 0.5));
+
+}
+
+
+.objective_content {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 30px 120px 30px;
+    font-size: 22px;
+    background: linear-gradient(to right, rgba(0, 185, 255, 0.5), rgba(0, 0, 255, 0.3));    
+    box-shadow:3px 3px 10px blue;
+    padding: 40px;
+    border-radius: 15px;
+
+}

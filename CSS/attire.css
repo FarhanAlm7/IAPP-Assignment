@@ -1,0 +1,54 @@
+main {
+    background-image: url(../multimedia/wooden_background.png);
+    margin-bottom: 40px;
+    border-bottom: 3px solid orange;
+
+}
+
+
+
+#attire_title {
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+
+
+.attire_item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 800px;
+    margin: auto auto 60px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 40px 40px rgba(0, 0 ,0 , 0.4);
+    border: 5px solid burlywood;
+}
+
+
+
+
+.attire_item h3 {
+    color: black;
+    font-size: 25px;
+}
+
+
+.attire_item img {
+    max-width:40%;
+    height: 300px;
+    border: 2px solid grey;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0 ,0 , 0.3);
+}
+
+
+.attire_item p {
+    color: gray;
+
+}
