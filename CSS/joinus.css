@@ -1,8 +1,15 @@
+main{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1)), url('../MULTIMEDIA/joinus_football.jpg');
+    background-size: cover;       
+    padding-top: 15px;
+    border-bottom: 5px solid orange;
+    margin-bottom: 45px;
+}
 .form-container{
     max-width: 1200px;
     margin: 40px auto; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}    
 
 .form-container h1:first-of-type{
     text-align: center;
