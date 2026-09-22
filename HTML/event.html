@@ -1,54 +1,208 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset = "UTF-8">
-        <meta name = "viewport" content = "width=device-width, initial-scale=1.0" >
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
         <title> APU Football Club </title>
-        <link rel = "icon" type = "image/png" href = "">
-        <link rel = "stylesheet" href = "../CSS/master.css">
+        <link rel="icon" type="image/png" href="">
+        <link rel="stylesheet" href="../CSS/master.css">
+        <link rel="stylesheet" href="../CSS/event.css">
+        <script src="../JS/event.js"> </script>
     </head>
     <body>
         <header>
             Training session every Tuesday 4PM at APU sport centre.
         </header>
         <nav>
-            <h2 id = "head-1"> APU KICKERS </h2>
-            <a class = "navigation" href = "./home.html"> Home </a>
-            <a class = "navigation" href = "./mission.html"> Mission & Vision </a>
-            <a class = "navigation" href = "./rules.html"> Rules & Regulations </a>
-            <a class = "navigation" href = "./attire.html"> Attire & Equipment </a>
-            <a class = "navigation" href = "./event.html"> Event Calendar </a>
-            <a class = "navigation" href = "./news.html"> News & Media </a>
-            <a class = "navigation" href = "./joinus.html"> Join Us </a>
-            <a class = "navigation" href = "./contact.html"> Contact & Enquiry </a>
+            <h2 id="head-1"> APU KICKERS </h2>
+            <a class="navigation" href="./home.html"> Home </a>
+            <a class="navigation" href="./mission.html"> Mission & Vision </a>
+            <a class="navigation" href="./rules.html"> Rules & Regulations </a>
+            <a class="navigation" href="./attire.html"> Attire & Equipment </a>
+            <a class="navigation" href="./event.html"> Event Calendar </a>
+            <a class="navigation" href="./news.html"> News & Media </a>
+            <a class="navigation" href="./honours.html"> Club Honours </a>
+            <a class="navigation" href="./joinus.html"> Join Us </a>
+            <a class="navigation" href="./contact.html"> Contact & Enquiry </a>
+
         </nav>
-        <main>
+        <main class="event-container">
+            <h2>Upcoming Kickers Event</h2>
+            <section class="event-grid">
+                <article class="event-card">
+                    <time class="event-date" datetime="2026-09-15">
+                        <span class="day">15</span>
+                        <span class="month">SEP</span>
+                    </time>
+                    <div class="event-detail">
+                        <div class="event-title">
+                            <span class="event-badge">WEEKLY PRACTICE</span>
+                            <h3>APU Kickers Regular Training</h3>
+                        </div>
+                        <p class="event-information">
+                            <span>⏰ 04:00 PM - 06:00 PM</span> |
+                            <span>📍 APU Sports Centre</span>
+                        </p>
+                    </div>
+                    <button type="button" class="btn" onclick="clickJoin(this)">Join</button>
+                </article>
+                <article class="event-card">
+                    <time class="event-date" datetime="2026-09-22">
+                        <span class="day">22</span>
+                        <span class="month">SEP</span>
+                    </time>
+                    <div class="event-detail">
+                        <div class="event-title">
+                            <span class="event-badge">CHARITY MATCH</span>
+                            <h3>APU Kickers vs Taylors FC</h3>
+                        </div>
+                        <p class="event-information">
+                            <span>⏰ 05:00 PM - 07:00 PM</span> |
+                            <span>📍 National Sports Complex</span>
+                        </p>
+                    </div>
+                    <button type="button" class="btn" onclick="window.alert('Viewing Lineup for APU Kickers vs Taylors FC')">View</button>
+                </article>
+                <article class="event-card">
+                    <time class="event-date" datetime="2026-09-29">
+                        <span class="day">29</span>
+                        <span class="month">SEP</span>
+                    </time>
+                    <div class="event-detail">
+                        <div class="event-title">
+                            <span class="event-badge">WEEKLY PRACTICE</span>
+                            <h3>APU Kickers Regular Training</h3>
+                        </div>
+                        <p class="event-information">
+                            <span>⏰ 04:00 PM - 06:00 PM</span> |
+                            <span>📍 APU Sports Centre</span>
+                        </p>
+                    </div>
+                    <button type="button" class="btn" onclick="clickJoin(this)">Join</button>
+                </article>
+                <article class="event-card">
+                    <time class="event-date" datetime="2026-10-06">
+                            <span class="day">06</span>
+                            <span class="month">OCT</span>
+                    </time>
+                    <div class="event-detail">
+                        <div class="event-title">
+                            <span class="event-badge">FRIENDLY MATCH</span>
+                            <h3>APU Kickers vs Sunway FC</h3>
+                        </div>
+                        <p class="event-information">
+                            <span>⏰ 05:00 PM - 07:00 PM</span> |
+                            <span>📍 APU Sports Centre</span>
+                        </p>
+                    </div>
+                    <button type="button" class="btn" onclick="window.alert('Viewing Lineup for APU Kickers vs Sunway FC')">View</button>
+                </article>
+                <article class="event-card">
+                    <time class="event-date" datetime="2026-10-13">
+                        <span class="day">13</span>
+                        <span class="month">OCT</span>
+                    </time>
+                    <div class="event-detail">
+                        <div class="event-title">
+                            <span class="event-badge">WEEKLY PRACTICE</span>
+                            <h3>Fitness Training</h3>
+                        </div>
+                        <p class="event-information">
+                            <span>⏰ 04:00 PM - 06:00 PM</span> |
+                            <span>📍 APU Sports Centre</span>
+                        </p>
+                    </div>
+                    <button type="button" class="btn" onclick="clickJoin(this)">Join</button>
+                </article>
+                <article class="event-card">
+                    <time class="event-date" datetime="2026-10-20">
+                        <span class="day">20</span>
+                        <span class="month">OCT</span>
+                    </time>
+                    <div class="event-detail">
+                        <div class="event-title">
+                            <span class="event-badge">MAPCU MATCH</span>
+                            <h3>APU Kickers vs Monash FC</h3>
+                        </div>
+                        <p class="event-information">
+                            <span>⏰ 04:30 PM - 06:30 PM</span> |
+                            <span>📍 Stadium UM</span>
+                        </p>
+                    </div>
+                    <button type="button" class="btn" onclick="window.alert('Viewing Lineup for APU Kickers vs Monash FC')">View</button>
+                </article>
+                <article class="event-card">
+                    <time class="event-date" datetime="2026-10-27">
+                        <span class="day">27</span>
+                        <span class="month">OCT</span>
+                    </time>
+                    <div class="event-detail">
+                        <div class="event-title">
+                            <span class="event-badge">WEEKLY PRACTICE</span>
+                            <h3>APU Kickers Regular Training</h3>
+                        </div>
+                        <p class="event-information">
+                            <span>⏰ 04:00 PM - 06:00 PM</span> |
+                            <span>📍 APU Sports Centre</span>
+                        </p>
+                    </div>
+                    <button type="button" class="btn" onclick="clickJoin(this)">Join</button>
+                </article>
+                <article class="event-card">
+                    <time class="event-date" datetime="2026-11-03">
+                        <span class="day">03</span>
+                        <span class="month">NOV</span>
+                    </time>
+                    <div class="event-detail">
+                        <div class="event-title">
+                            <span class="event-badge">SEMI FINAL</span>
+                            <h3>APU Kickers vs UTAR FC</h3>
+                        </div>
+                        <p class="event-information">
+                            <span>⏰ 05:00 PM - 07:00 PM</span> |
+                            <span>📍 National Sports Complex</span>
+                        </p>
+                    </div>
+                    <button type="button" class="btn" onclick="window.alert('Viewing Lineup for Semi Final')">View</button>
+                </article>
+            </section>
         </main>
-        <div class = "box-title">
+        
+        <div class="box-title">
             <h1>Explore Our Club</h1>
         </div>
-        <section class = "box">
+        <section class="box">
             <a class ="little-box-hyperlink" href ='./merchandise.html'>
-                <article class = "little-box">
+                <article class="little-box">
                     <h3> Merchandise Store </h3>
-                    <p>Gear up like a pro. Support the team and wear your pride with official APU Kickers jerseys, training wear, and club merchandise.</p>
+                    <p>You can buy official APU Kickers jerseys and training wear here. It's a simple way to support the team and also have something to wear during training or matches.</p>
                 </article>
             </a>
             <a class ="little-box-hyperlink" href ="./schedule.html">
-                <article class = "little-box">
+                <article class="little-box">
                     <h3> Match Schedule </h3>
-                    <p>Follow our journey across the season. View upcoming match schedules, players, kickoff venues, and past-game results.</p>
+                    <p>Here you can check our upcoming matches, the venues, kick-off times, and also look back at previous results. Useful if you want to follow the team throughout the season.</p>
                 </article>
             </a>
-            <a class = "little-box-hyperlink" href ="./feedback.html">
-                <article class = "little-box">
+            <a class="little-box-hyperlink" href ="./feedback.html">
+                <article class="little-box">
                     <h3> Feedback Portal </h3>
-                    <p>Help us build a better club. Share your thoughts, rate our training sessions, or give suggestions to the coaching staff.</p> 
+                    <p>If you have any comments about the training sessions or suggestions for the club, you can leave them here. We do read the feedback and try to improve where possible.</p> 
+                </article>
+            </a>
+            <a class="little-box-hyperlink" href ="./gallery.html">
+                <article class="little-box">
+                    <h3> Gallery </h3>
+                    <p>This section has photos from our training sessions and matches. Feel free to browse through if you want to get an idea of what training usually looks like before joining.</p> 
                 </article>
             </a>
         </section>
         <footer>
             <p>&copy; 2026 APU Football Club (AINT012-4-1 Group Project). All Rights Reserved.</p>
+            <p>
+                <a class="bottom-hyperlink" href="./sponsor.html">Sponsors</a> |
+                <a class="bottom-hyperlink" href="./faq.html">FAQ</a>
+            </p>      
         </footer>
     </body>
 

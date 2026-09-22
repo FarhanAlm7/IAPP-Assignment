@@ -1,9 +1,19 @@
-main h1:first-of-type{
-    text-align: center;
-    font-size: 40px;
-    color: orange;
-    margin-bottom: 15px;
+.form-container{
+    max-width: 1200px;
+    margin: 40px auto; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+
+.form-container h1:first-of-type{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.form-container h4{
+    margin-bottom: 5px;
+}
+
 
 .club-form{
     display: flex;
@@ -11,9 +21,8 @@ main h1:first-of-type{
     align-items: center;
 }
 
-main form input{
+.form-container form input{
     width: 300px;
-    margin-top: 5px;
     margin-bottom: 30px;
     border-radius: 5px;
     padding: 7px 0px;
@@ -21,10 +30,18 @@ main form input{
     
 }
 
- .gender-type{
-    width: 40px;
-    margin-top: 30px;
- }
+.level-of-study{
+    width: 300px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 7px 0px;
+    border: black solid 0.5px;
+}
+
+.gender-type{
+   width: 40px;
+   margin-top: 30px;
+}
 
 .gender{
     display: flex;
@@ -37,12 +54,13 @@ main form input{
     height: 30px;
 }
 
-.level-of-study{
-    width: 300px;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    padding: 7px 0px;
-    border: black solid 0.5px;
+.submit-button{
+    background-color: orange;
+    color: white
 }
+
+
+
+
 
 

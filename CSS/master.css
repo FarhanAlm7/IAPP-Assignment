@@ -31,8 +31,8 @@ nav{
     z-index: 1;
     display: flex;
     align-items: center;
-    gap: 30px;
-    background-color: #b0bac6;
+    gap: 25px;
+    background-color: #c6cdd4;
     height: 70px;
 
     #head-1{
@@ -78,11 +78,12 @@ nav{
 .little-box-hyperlink{
     text-decoration: none;
     flex: 1;
-    min-width: 330px;
+    min-width: 330px
 }
 
 .little-box{ 
     background-color: white;
+    min-height: 110px;
     padding: 30px 20px;
     text-align: center;
     border-radius: 15px;
@@ -106,17 +107,26 @@ nav{
 }
 
 
-/* main part (unique) */
-/* ------------------------- */
-
 
 
 
 footer{
-    background-color: rgb(9, 9, 49);
+    background-color: rgb(15, 15, 72);
     color: white;
     text-align: center;
     padding: 20px;
-    font-size: 15px;
+    font-size: 16px;
     border-top: 3px solid orange;
+}
+
+.bottom-hyperlink{
+    text-decoration: none;
+    color: rgb(185, 176, 176);
+    font-size: 15px;
+    padding: 0 10px;
+    margin-top: 5px
+}
+
+.bottom-hyperlink:hover{
+    color: white;
 }
