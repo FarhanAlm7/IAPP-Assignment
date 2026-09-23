@@ -1,9 +1,26 @@
-main h1:first-of-type{
-    text-align: center;
-    font-size: 40px;
-    color: orange;
-    margin-bottom: 15px;
+main{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1)), url('../MULTIMEDIA/joinus_football.jpg');
+    background-size: cover;       
+    padding: 1px;
+    border-bottom: 5px solid orange;
+    margin-bottom: 45px;
 }
+.form-container{
+    max-width: 1200px;
+    margin: 40px auto; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}    
+
+.form-container h1:first-of-type{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.form-container h4{
+    margin-bottom: 5px;
+}
+
 
 .club-form{
     display: flex;
@@ -11,9 +28,8 @@ main h1:first-of-type{
     align-items: center;
 }
 
-main form input{
+.form-container form input{
     width: 300px;
-    margin-top: 5px;
     margin-bottom: 30px;
     border-radius: 5px;
     padding: 7px 0px;
