@@ -138,3 +138,48 @@ main {
 .btn-primary:active {
   transform: scale(0.98);
 }
+
+#toast {
+  position: fixed;
+  top: 130px;
+  right: 30px;
+  z-index: 9999;
+
+  background: #222;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+
+  opacity: 0;
+  visibility: hidden;
+}
+
+#toast.show {
+  visibility: visible;
+
+  animation:
+    slideInRight 0.3s ease-in-out forwards,
+    fadeOut 0.5s ease-in-out forwards 3s;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(110%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
