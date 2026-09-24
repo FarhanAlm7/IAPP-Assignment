@@ -42,3 +42,15 @@ main ol li {
     line-height: 30px;
     font-size: 18px;
 }
+
+
+main a:visited {
+    color: purple
+}
+
+
+main a:hover {
+    color: orange;
+    
+}
+
